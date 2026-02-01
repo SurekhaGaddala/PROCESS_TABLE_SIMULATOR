@@ -35,7 +35,7 @@ void Bubble_sortByPriority(){
      int i,j;
      for(i=0;i<count;i++){
      	for(j=0;j<count-i-1;count++){
-     		if(table[j].priority>table[j+1].priority);{
+     		if(table[j].priority>table[j+1].priority){   
      			int temp=table[j].priority;
      			table[j].priority=table[j+1].priority;
      			table[j+1].priority=temp;
@@ -136,7 +136,7 @@ void Binary_searchBYPID(){
 
 int main(){
 	while(1){
-	printf("1.Add\n2.Display\n3.Bubble_sort(priority)\n4.Insertion_sor(PID)\n5.Shell_sort(BST)\n");
+	printf("1.Add\n2.Display\n3.Bubble_sort(priority)\n4.Insertion_sort(PID)\n5.Shell_sort(BST)\n");
 	printf("6.Linear_search(PID)\n7.Binary_search(PID2)\n8.exitTheLoop\n");
 	int choice;
 	printf("Enter your Choice\n");
@@ -154,6 +154,7 @@ int main(){
   } 
  }
 }
+
 
 
 
